@@ -85,3 +85,8 @@ variable "allow_credentials" {
   description = "Allow credentials"
   default     = false
 }
+
+variable enable {
+  type = bool
+  default = false
+}
